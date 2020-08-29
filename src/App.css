@@ -1,0 +1,537 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HOME PAGE STYLES */
+.homePage {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.landingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient( #81d4fa, #039be5);
+}
+
+.landingTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+.landingHello {
+  font-weight: 700;
+  color: white;
+  font-size: 3em;
+  padding-bottom: 2%;
+}
+
+.anim-typewriter {
+  border-right: 3px solid rgba(255, 255, 255, 0.85);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 6s steps(20) 1s 1 normal both,
+  blinkTextCursor 1s steps(20) infinite normal;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.85);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.roundedBorder {
+  width: 100%;
+  padding-bottom: 3%;
+  border-top: 3px solid #ffffff;
+  border-radius: 2px;
+}
+
+.landingIntro {
+  text-align: left;
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+  font-size: 1em;
+}
+
+.socialLinksContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 2em;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  padding-right: 1.75em;
+  animation-name: slideup;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideup {
+  0%{
+    opacity: 0.5;
+    height: 0;
+    overflow: hidden;
+  }
+  100%{
+    opacity: 1;
+    height: 40vh;
+    overflow: hidden;
+  }
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.icons a {
+  color: white;
+}
+
+.icons a:hover {
+  opacity: 0.5;
+}
+
+.socialIcon {
+  margin-top: 12px;
+}
+
+.verticalIconDivider {
+  border-left: 2px solid #ffffff;
+  height: 37%;
+}
+
+.navBarContainer {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 1.3em;
+  padding-right: 1.5em;
+  background-color: transparent;
+}
+
+.navBarContainer li {
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.navBarContainer a {
+  font-size: 0.65em;
+  font-weight: 400;
+  color:white;
+  text-decoration: none;
+}
+
+.navBarContainer a:hover {
+  opacity: 0.6;
+}
+
+.activeLink {
+  border-bottom: 1px solid white;
+}
+
+/* ABOUT PAGE STYLES */
+.aboutPage {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient( #26e051, #0c912b);
+}
+
+.headlineContainer {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 0%;
+  max-height: 4em;
+  border-bottom: 2px solid white;
+  animation-name: slideright;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.headlineContainer h1 {
+  margin-bottom: 5%;
+  font-size: 2em;
+  color: white;
+}
+
+@keyframes slideright {
+  0%{
+    width: 0;
+    overflow: hidden;
+  }
+  100%{
+    width: 45%;
+    overflow: hidden;
+  }
+}
+
+.bioContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100%;
+}
+
+.textContainer {
+  color: white;
+  font-weight: 400;
+  height: 100%;
+  width: 60vw;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+.textContainer h6 {
+  opacity: 0.9;
+  font-weight: 400;
+  margin: 0;
+  font-size: 24px;
+}
+
+.textContainer p {
+  opacity: 0.9;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#profilePic {
+  height: 300px;
+}
+
+/* EXPERIENCE PAGE STYLES */
+.experiencePage {
+  min-height: 100vh;
+}
+
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient( #8a63d2, #6f42c1);
+}
+
+.stackedListContainer {
+  height: 100%;
+  width: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  animation-name: sliderightList;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sliderightList {
+  0%{
+    width: 0;
+    overflow: hidden;
+    
+  }
+  100%{
+    width: 75vw;
+    overflow: hidden;
+  }
+}
+
+.stackedItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.5%;
+  color: rgb(51, 51, 51);
+}
+
+.itemHeadlineContainerExperience, .itemHeadlineContainerProjects{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2.75em;
+  width: 100%;
+  background: white;
+}
+
+.itemHeadlineContainerExperience h3, .itemHeadlineContainerProjects h3 {
+  margin: 0 3%;
+  font-weight: 400;
+  font-size: 0.8em;
+  animation-name: delayContents;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.itemHeadlineContainerExperience:hover{
+  cursor: pointer;
+  background: #b392f0;
+  color: white;
+}
+
+.activeItemExperience {
+  background: #b392f0;
+  color: white;
+}
+
+.itemHeadlineContainerProjects:hover{
+  cursor: pointer;
+  background: #ffa463;
+  color: white;
+}
+
+.activeItemProjects {
+  background: #ffab70;
+  color: white;
+}
+
+.experienceLogo {
+  height: 1em;
+  margin-right: 2%;
+  margin-left: auto;
+  animation-name: delayContents;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.chevron {
+  font-size: 0.8em;
+  margin-left: 3%;
+  transform: rotate(0deg);
+  transition: transform 150ms ease-in-out;
+  animation-name: delayContents;
+  animation-duration: 800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.rotateDown{
+  transform: rotate(90deg);
+  transition: transform 150ms ease-in-out;
+}
+
+.chevron:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@keyframes delayContents {
+  0%, 50%{
+    opacity: 0;
+    overflow: hidden;
+    
+  }
+  100%{
+    opacity: 1;
+    overflow: hidden;
+  }
+}
+
+.itemDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.descriptionContainer {
+  padding: 2% 3%;
+  padding-bottom: 1%;
+  height: 100%;
+  width: 94%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.additionalInfoContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 10%;
+  width: 94%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 14px;
+}
+
+.linksDescription a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid black;
+}
+
+.linksDescription a:hover {
+  opacity: 0.6;
+}
+
+.categoryHeader {
+  display: inline-block;
+  padding-bottom: 1px;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+/* PROJECTS PAGE STYLES */
+.projectsPage {
+  min-height: 100vh;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient( #ff9b53, #f66a0a);
+}
+
+/* CONNECT PAGE STYLES */
+.connectPage {
+  min-height: 100vh;
+}
+
+.connectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient( #ea4a5a, #cb2431);
+}
+
+@media only screen and (min-width: 50em) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 65em) {
+  .aboutContainer{
+    align-items: center;
+  }
+  .experienceContainer {
+    align-items: center;
+  }
+  .projectsContainer {
+    align-items: center;
+  }
+  .connectContainer {
+    align-items: center;
+  }
+  .socialLinksContainer {
+    padding-right: 1.25em;
+  }
+  .navBarContainer {
+    padding-right: 1em;
+  }
+  .headlineContainer {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 0;
+  }
+  .bioContainer {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-right: 15%;
+  }
+  .textContainer h6 {
+    font-size: 1.5em;
+  }
+  .textContainer p {
+    font-size: 1em;
+  }
+  #profilePic {
+    height: 15em;
+  }
+  .stackedListContainer {
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 5%;
+  }
+  .stackedItemContainer {
+    margin-bottom: 4%;
+  }
+  .itemHeadlineContainerExperience, .itemHeadlineContainerProjects {
+    height: 3em;
+  }
+  .itemHeadlineContainerExperience h3 {
+    font-size: 0.7em;
+    margin-right: 2%;
+  }
+  .itemHeadlineContainerProjects h3 {
+    font-size: 0.65em;
+    margin-right: 2%;
+  }
+  .experienceLogo {
+    height: 0.6em;
+  }
+  .descriptionContainer {
+    padding: 4% 5%;
+    padding-bottom: 2%;
+    width: 90%;
+    font-size: 9px;
+  }
+  .additionalInfoContainer {
+    font-size: 7px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+  }
+  .chevron {
+    font-size: 0.7em;
+  }
+}
