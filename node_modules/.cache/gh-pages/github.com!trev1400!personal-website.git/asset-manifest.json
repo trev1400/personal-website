@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.bac8ff0b.chunk.css",
+    "main.js": "/personal-website/static/js/main.bcd23774.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.bcd23774.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.3731dab7.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.3731dab7.js.map",
+    "static/js/2.f06c8c57.chunk.js": "/personal-website/static/js/2.f06c8c57.chunk.js",
+    "static/js/2.f06c8c57.chunk.js.map": "/personal-website/static/js/2.f06c8c57.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.9b9a3b2e93e29bd07a9d9102d6ab4adf.js": "/personal-website/precache-manifest.9b9a3b2e93e29bd07a9d9102d6ab4adf.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/main.bac8ff0b.chunk.css.map": "/personal-website/static/css/main.bac8ff0b.chunk.css.map",
+    "static/js/2.f06c8c57.chunk.js.LICENSE.txt": "/personal-website/static/js/2.f06c8c57.chunk.js.LICENSE.txt",
+    "static/media/Website_Profile_Pic.png": "/personal-website/static/media/Website_Profile_Pic.27199539.png",
+    "static/media/cs15.png": "/personal-website/static/media/cs15.6bbb3f1e.png",
+    "static/media/fsab.png": "/personal-website/static/media/fsab.44c6bc61.png",
+    "static/media/microsoft.png": "/personal-website/static/media/microsoft.a7939c43.png",
+    "static/media/pal.png": "/personal-website/static/media/pal.81175c01.png",
+    "static/media/scorebook.png": "/personal-website/static/media/scorebook.8184bb70.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3731dab7.js",
+    "static/js/2.f06c8c57.chunk.js",
+    "static/css/main.bac8ff0b.chunk.css",
+    "static/js/main.bcd23774.chunk.js"
+  ]
+}
