@@ -472,7 +472,7 @@
     margin-left: 0;
   }
   .headlineContainer h1 {
-    animation-name: delayContents;
+    animation-name: delayContentsText;
     animation-duration: 800ms;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
@@ -534,6 +534,18 @@
 
 @keyframes delayContents {
   0%, 50%{
+    opacity: 0;
+    overflow: hidden;
+    
+  }
+  100%{
+    opacity: 1;
+    overflow: hidden;
+  }
+}
+
+@keyframes delayContentsText {
+  0%, 60%{
     opacity: 0;
     overflow: hidden;
     
