@@ -199,11 +199,13 @@
 @keyframes slideright {
   0%{
     width: 0;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
   100%{
     width: 45%;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
 }
 
@@ -508,11 +510,11 @@
     height: 3em;
   }
   .itemHeadlineContainerExperience h3 {
-    font-size: 0.7em;
+    font-size: 0.75em;
     margin-right: 2%;
   }
   .itemHeadlineContainerProjects h3 {
-    font-size: 0.65em;
+    font-size: 0.7em;
     margin-right: 2%;
   }
   .experienceLogo {
@@ -522,10 +524,10 @@
     padding: 4% 5%;
     padding-bottom: 2%;
     width: 90%;
-    font-size: 9px;
+    font-size: 11px;
   }
   .additionalInfoContainer {
-    font-size: 7px;
+    font-size: 10px;
     width: 90%;
     padding-left: 5%;
     padding-right: 5%;

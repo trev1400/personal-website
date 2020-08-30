@@ -24,7 +24,7 @@ const csaText = [
 ]
 
 const graphText = [
-    "A graph data structure implementation with an accompanied by a visualizer. The graph was built using an adjacency matrix as its underlying structure. We were also asked to implement the Prim-Jarnik algorithm for finding minimum spanning forests (MSFs) and the PageRank algorithm used by Google Search to rank web pages in their search results.",
+    "A graph data structure implementation accompanied by a visualizer. The graph was built using an adjacency matrix as its underlying structure. We were also asked to implement the Prim-Jarnik algorithm for finding minimum spanning forests (MSFs) and the PageRank algorithm used by Google Search to rank web pages in their search results.",
     null,
     "Languages: Java",
     "Video Demo",

@@ -5,7 +5,7 @@ class NavBar extends React.Component {
     render () {
         return (
             <div className="navBarContainer">
-                <li><NavLink exact to="/" activeClassName="activeLink">HOME</NavLink></li>
+                <li><NavLink exact to="/personal-website" activeClassName="activeLink">HOME</NavLink></li>
                 <li><NavLink exact to="/about" activeClassName="activeLink">ABOUT</NavLink></li>
                 <li><NavLink exact to="/experience" activeClassName="activeLink">EXPERIENCE</NavLink></li>
                 <li><NavLink exact to="/projects" activeClassName="activeLink">PROJECTS</NavLink></li>
