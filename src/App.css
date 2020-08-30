@@ -365,18 +365,6 @@
   opacity: 0.5;
 }
 
-@keyframes delayContents {
-  0%, 50%{
-    opacity: 0;
-    overflow: hidden;
-    
-  }
-  100%{
-    opacity: 1;
-    overflow: hidden;
-  }
-}
-
 .itemDetailsContainer {
   display: flex;
   flex-direction: column;
@@ -483,6 +471,12 @@
     margin-top: 10%;
     margin-left: 0;
   }
+  .headlineContainer h1 {
+    animation-name: delayContents;
+    animation-duration: 800ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
   .bioContainer {
     flex-direction: column;
     align-items: center;
@@ -535,5 +529,17 @@
   }
   .chevron {
     font-size: 0.7em;
+  }
+}
+
+@keyframes delayContents {
+  0%, 50%{
+    opacity: 0;
+    overflow: hidden;
+    
+  }
+  100%{
+    opacity: 1;
+    overflow: hidden;
   }
 }
