@@ -4,6 +4,8 @@ import microsoftLogo from '../images/microsoft.png'
 import fsabLogo from '../images/fsab.png'
 import cs15Logo from '../images/cs15.png'
 import cs16Logo from '../images/cs16.png'
+import tronLogo from '../images/tron.png'
+import auxplosionLogo from '../images/auxplosion.png'
 
 const hackathonText = [
     "Microsoft's annual Hackathon is the largest private global hackathon. This project was an accessibility plugin for Figma, a popular interface design tool. It uses LUIS, a Microsoft Natural Language Processing service, to translate voice commands into Figma actions so that users with limited mouse and keyboard mobility can still utilize this tool. The team had 15 members and was a mix of accessibility designers, program managers, software engineers, and interns.",
@@ -23,22 +25,22 @@ const csaText = [
     null
 ]
 
-const graphText = [
-    "A graph data structure implementation accompanied by a visualizer. The graph was built using an adjacency matrix as its underlying structure. We were also asked to implement the Prim-Jarnik algorithm for finding minimum spanning forests (MSFs) and the PageRank algorithm used by Google Search to rank web pages in their search results.",
+const auxplosionText = [
+    "A song recommendation generator that uses Spotify's API to suggest songs based on a 'seed track' provided by the user. Developed with a React front-end and a very basic Express back-end. I took on this side project to practice working with APIs and continue learning React.",
     null,
-    "Languages: Java",
-    "Video Demo",
-    "April 2020",
-    "https://drive.google.com/file/d/1FKsAhlMrataoE59GdgOzjmWNne9cGN33/view?usp=sharing"
+    "Languages: React, HTML, CSS",
+    "Website",
+    "December 2020",
+    "https://auxplosion.herokuapp.com/"
 ]
 
-const seamcarveText = [
-    "An implementation of the seam carving algorithm used for image resizing. This algorithm is a common example of the optimization power of dynamic programming. We were asked to incorporate this algorithm using this dynamic programming approach and then test the accuracy of our algorithm on a set of example photos.",
+const tronText = [
+    "A Tron bot developed as a partner project that uses the minimax algorithm optimized with αβ-pruning to be able to explore a greater number of game states. The bot uses an evaluation function based around the Voronoi heuristic, which helps it estimate how much space on the game board it controls in relation to its opponent.",
     null,
-    "Languages: Java",
+    "Languages: Python",
     "Video Demo",
-    "February 2020",
-    "https://drive.google.com/file/d/1aN6apgRh_xQGiIS6b46s5nFYHEiNqW0E/view?usp=sharing"
+    "December 2020",
+    "https://drive.google.com/file/d/1zA7CbWnOoGL8CD51q8A1x3l_N_6wJWXb/view?usp=sharing"
 ]
 
 const sketchyText = [
@@ -58,10 +60,10 @@ class ProjectsContainer extends React.Component {
                     <h1>Projects</h1>
                 </div>
                 <div className="stackedListContainer">
+                    <StackedItem title={"AUXplosion - Personal project"} isExperiencePage={false} logo={auxplosionLogo} descriptionText={auxplosionText}/>
                     <StackedItem title={"Voice-Powered Figma - Microsoft Hackathon 2020"} isExperiencePage={false} logo={microsoftLogo} descriptionText={hackathonText}/>
                     <StackedItem title={"Chinese Students Association Website - Full Stack at Brown"} isExperiencePage={false} logo={fsabLogo} descriptionText={csaText}/>
-                    <StackedItem title={"Graph - CSCI 0160: Algorithms and Data Structures"} isExperiencePage={false} logo={cs16Logo} descriptionText={graphText}/>
-                    <StackedItem title={"Seamcarve - CSCI 0160: Algorithms and Data Structures"} isExperiencePage={false} logo={cs16Logo} descriptionText={seamcarveText}/>
+                    <StackedItem title={"Tron - CSCI 1410: Artificial Intelligence"} isExperiencePage={false} logo={tronLogo} descriptionText={tronText}/>
                     <StackedItem title={"Sketchy - CSCI 0150: Object-Oriented Programming"} isExperiencePage={false} logo={cs15Logo} descriptionText={sketchyText}/>
                 </div>
             </div>
