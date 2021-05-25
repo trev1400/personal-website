@@ -60,7 +60,7 @@ class ProjectsContainer extends React.Component {
                     <h1>Projects</h1>
                 </div>
                 <div className="stackedListContainer">
-                    <StackedItem title={"AUXplosion - Personal project"} isExperiencePage={false} logo={auxplosionLogo} descriptionText={auxplosionText}/>
+                    <StackedItem title={"AUXplosion"} isExperiencePage={false} logo={auxplosionLogo} descriptionText={auxplosionText}/>
                     <StackedItem title={"Voice-Powered Figma - Microsoft Hackathon 2020"} isExperiencePage={false} logo={microsoftLogo} descriptionText={hackathonText}/>
                     <StackedItem title={"Chinese Students Association Website - Full Stack at Brown"} isExperiencePage={false} logo={fsabLogo} descriptionText={csaText}/>
                     <StackedItem title={"Tron - CSCI 1410: Artificial Intelligence"} isExperiencePage={false} logo={tronLogo} descriptionText={tronText}/>
