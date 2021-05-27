@@ -5,6 +5,13 @@ import fsabLogo from '../images/fsab.png'
 import scorebookLogo from '../images/scorebook.png'
 import palLogo from '../images/pal.png'
 
+const sweText = [
+    "Currently working on the Fluid Framework team.",
+    null,
+    "May 2021 - August 2021",
+    null
+]
+
 const explorerText = [
     "Microsoft's Explore Program is a 12-week internship that allows you to try both the Program Manager and Software Engineer roles.",
     "- Program Management Phase: Identified user pain points with Office’s in-app learning experience, created a high-fidelity prototype in Figma, conducted two user testing sessions, and used user insights to iterate on project design.",
@@ -16,7 +23,7 @@ const explorerText = [
 
 const fsabText = [
     "Full Stack at Brown is a Brown University club committed to promoting the education of full stack software engineering by working on applications for the Brown community and beyond.",
-    "During most recent project, worked in a team of three to create a website for Brown’s Chinese Student Association. Focused on becoming proficient in Vanilla JavaScript while improving upon existing HTML and CSS skills.",
+    "Worked in a team of four to create Mootual for UChicago’s Radical Innovation for Social Change Lab (RISC). Mootual is a mobile app that allows users to request and recommend mutual friends to each other. Also worked in a team of three to create a website for Brown’s Chinese Student Association. Focused on becoming proficient in Vanilla JavaScript while improving upon existing HTML and CSS skills.",
     null,
     "Website",
     "February 2020 - Present",
@@ -58,10 +65,11 @@ class ExperienceContainer extends React.Component {
                     <h1>Experience</h1>
                 </div>
                 <div className="stackedListContainer">
+                    <StackedItem title={"Software Engineer Intern - Microsoft Fluid Framework"} isExperiencePage={true} logo={microsoftLogo} descriptionText={sweText}/>
                     <StackedItem title={"Explorer Intern - Microsoft Office Core Experiences"} isExperiencePage={true} logo={microsoftLogo} descriptionText={explorerText}/>
                     <StackedItem title={"Frontend Engineer - Full Stack at Brown"} isExperiencePage={true} logo={fsabLogo} descriptionText={fsabText}/>
                     <StackedItem title={"Freelance Graphic Design - Scorebook Live"} isExperiencePage={true} logo={scorebookLogo} descriptionText={graphicDesignText}/>
-                    <StackedItem title={"Tutor - Partnership for Adult Learning"} isExperiencePage={true} logo={palLogo} descriptionText={palText}/>
+                    {/* <StackedItem title={"Tutor - Partnership for Adult Learning"} isExperiencePage={true} logo={palLogo} descriptionText={palText}/> */}
                     <StackedItem title={"High School Intern - Minecraft"} isExperiencePage={true} logo={microsoftLogo} descriptionText={highschoolText}/>
                 </div>
             </div>

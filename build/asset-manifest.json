@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.ff1dc3b2.chunk.css",
-    "main.js": "/personal-website/static/js/main.f9033b13.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.f9033b13.chunk.js.map",
+    "main.css": "/personal-website/static/css/main.2bb1e0fe.chunk.css",
+    "main.js": "/personal-website/static/js/main.f7161417.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.f7161417.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.3731dab7.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.3731dab7.js.map",
     "static/js/2.a23732d3.chunk.js": "/personal-website/static/js/2.a23732d3.chunk.js",
     "static/js/2.a23732d3.chunk.js.map": "/personal-website/static/js/2.a23732d3.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "precache-manifest.6f6ad785a17a9fafdbee5ed7e78e2845.js": "/personal-website/precache-manifest.6f6ad785a17a9fafdbee5ed7e78e2845.js",
+    "precache-manifest.3068d5e5995398dfc28c1bf33a69b336.js": "/personal-website/precache-manifest.3068d5e5995398dfc28c1bf33a69b336.js",
     "service-worker.js": "/personal-website/service-worker.js",
-    "static/css/main.ff1dc3b2.chunk.css.map": "/personal-website/static/css/main.ff1dc3b2.chunk.css.map",
+    "static/css/main.2bb1e0fe.chunk.css.map": "/personal-website/static/css/main.2bb1e0fe.chunk.css.map",
     "static/js/2.a23732d3.chunk.js.LICENSE.txt": "/personal-website/static/js/2.a23732d3.chunk.js.LICENSE.txt",
     "static/media/Website_Profile_Pic.png": "/personal-website/static/media/Website_Profile_Pic.27199539.png",
     "static/media/auxplosion.png": "/personal-website/static/media/auxplosion.1b358841.png",
-    "static/media/cs15.png": "/personal-website/static/media/cs15.6bbb3f1e.png",
     "static/media/fsab.png": "/personal-website/static/media/fsab.44c6bc61.png",
     "static/media/microsoft.png": "/personal-website/static/media/microsoft.a7939c43.png",
+    "static/media/mootual.png": "/personal-website/static/media/mootual.d31ae62c.png",
     "static/media/pal.png": "/personal-website/static/media/pal.81175c01.png",
-    "static/media/scorebook.png": "/personal-website/static/media/scorebook.8184bb70.png",
-    "static/media/tron.png": "/personal-website/static/media/tron.3356319e.png"
+    "static/media/scorebook.png": "/personal-website/static/media/scorebook.8184bb70.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3731dab7.js",
     "static/js/2.a23732d3.chunk.js",
-    "static/css/main.ff1dc3b2.chunk.css",
-    "static/js/main.f9033b13.chunk.js"
+    "static/css/main.2bb1e0fe.chunk.css",
+    "static/js/main.f7161417.chunk.js"
   ]
 }

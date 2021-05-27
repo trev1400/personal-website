@@ -34,7 +34,7 @@ const auxplosionText = [
 ]
 
 const mootualText = [
-    "Worked in a team of four to build Mootual for UChicago’s Radical Innovation for Social Change Lab (RISC). Mootual is a React Native app that allows users to request and recommend mutual friends to each other.",
+    "Worked in a team of four to build Mootual for UChicago’s Radical Innovation for Social Change Lab (RISC). Mootual is a mobile app that allows users to request and recommend mutual friends to each other.",
     "Led the frontend UI development as well as the build deployment via TestFlight. The app is currently undergoing beta testing with UChicago students and faculty.",
     "Tech Stack: ReactNative (Expo), Postgres, Node.js, Sequelize",
     "Video Demo",
