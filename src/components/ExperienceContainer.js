@@ -3,10 +3,11 @@ import StackedItem from './StackedItem';
 import microsoftLogo from '../images/microsoft.png'
 import fsabLogo from '../images/fsab.png'
 import scorebookLogo from '../images/scorebook.png'
-import palLogo from '../images/pal.png'
 
 const sweText = [
-    "Currently working on the Fluid Framework team.",
+    "- Worked in a React/TypeScript stack to build the home screen UI for a new Office web app experience. Leveraged a combination of Microsoft Fluent UI controls and custom-made React components.",
+    "- Collaborated with coworkers to integrate home screen UI with various back-end APIs and data stores.",
+    "- Created a comprehensive unit test suite for the UI using a combination of Jest and React Testing Library.",
     null,
     "May 2021 - August 2021",
     null
