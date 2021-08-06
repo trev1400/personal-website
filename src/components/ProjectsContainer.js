@@ -34,8 +34,8 @@ const auxplosionText = [
 ]
 
 const mootualText = [
-    "Worked in a team of four to build Mootual for UChicago’s Radical Innovation for Social Change Lab (RISC). Mootual is a mobile app that allows users to request and recommend mutual friends to each other.",
-    "Led the frontend UI development as well as the build deployment via TestFlight. The app is currently undergoing beta testing with UChicago students and faculty.",
+    "Developed a React Native app for UChicago’s Radical Innovation for Social Change Lab. Mootual allows users to request and give friend introductions.",
+    "Led four-person team in front-end UI development as well as build deployment via TestFlight. Mootual is currently undergoing beta testing with UChicago students and faculty.",
     "Tech Stack: ReactNative (Expo), Postgres, Node.js, Sequelize",
     "Video Demo",
     "January 2021 - May 2021",
@@ -43,8 +43,8 @@ const mootualText = [
 ]
 
 const mapDashText = [
-    "Final group project for CS 32: Software Engineering. Created a multiplayer Google StreetView-based game in which two users are given the same destination and tasked with racing to that destination in the StreetView.",
-    "Built the UI for the main gameplay screen and interfaced ReactJS frontend with Java backend web sockets. Wrote JUnit test suite using Mockito to simulate web socket connections to the backend.",
+    "Built a multiplayer Google StreetView-based game in which two users are given the same destination and tasked with racing to that destination in the StreetView. (Final project for CS 32: Software Engineering)",
+    "Developed the UI for the main gameplay screen; Interfaced ReactJS front-end with Java back-end web sockets; Wrote extensive JUnit test suite using Mockito to simulate web socket connections to the back-end.",
     "Tech Stack: ReactJS, Node.js, Java, Java WebSocket API, SQL/SQLite",
     "Video Demo",
     "March 2021 - April 2021",

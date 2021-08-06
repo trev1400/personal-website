@@ -5,9 +5,9 @@ import fsabLogo from '../images/fsab.png'
 import scorebookLogo from '../images/scorebook.png'
 
 const sweText = [
-    "- Worked in a React/TypeScript stack to build the home screen UI for a new Office web app experience. Leveraged a combination of Microsoft Fluent UI controls and custom-made React components.",
-    "- Collaborated with coworkers to integrate home screen UI with various back-end APIs and data stores.",
-    "- Created a comprehensive unit test suite for the UI using a combination of Jest and React Testing Library.",
+    "- Built the home screen UI for an Office web app experience in a React/TypeScript stack by developing custom React components and leveraging Microsoft Fluent UI controls.",
+    "- Integrated home screen UI with back-end APIs and data stores to implement features and user functionalities.",
+    "- Created a Jest and React Testing Library-based test suite for the UI that reached 80% code coverage.",
     null,
     "May 2021 - August 2021",
     null
@@ -15,8 +15,8 @@ const sweText = [
 
 const explorerText = [
     "Microsoft's Explore Program is a 12-week internship that allows you to try both the Program Manager and Software Engineer roles.",
-    "- Program Management Phase: Identified user pain points with Office’s in-app learning experience, created a high-fidelity prototype in Figma, conducted two user testing sessions, and used user insights to iterate on project design.",
-    "- Engineering Phase: Programmed in C++ and Microsoft’s XML-based markup language in a team of three to build the front-end and back-end framework for a new in-app learning feature in Office, built UI for an accessibility-related Figma plugin as part of a team for Microsoft’s annual Hackathon.",
+    "- Program Management Phase: Identified pain points with Office’s in-app learning experience; Created a high-fidelity project prototype in Figma; Conducted two user testing sessions and utilized insights to iterate on design.",
+    "- Engineering Phase: Programmed in C++ and Microsoft’s XML-based markup language to build the front-end UI and back-end framework for a new Office in-app learning experience; Built pop-up dialog UI for a voice-powered Figma plugin as part of a Microsoft Hackathon team; Collaborated daily with two intern teammates during both phases.",
     null,
     "May 2020 - August 2020",
     null
@@ -40,15 +40,6 @@ const graphicDesignText = [
     "https://drive.google.com/drive/folders/12H_mWYQFkxKYcduv7PZyMYEUCc-khUYH?usp=sharing"
 ]
 
-const palText = [
-    "Partnership for Adult Learning (PAL) is a student-led group that is part of Community Corps, a program of the Swearer Center for Public Service at Brown University. PAL pairs student tutors from Brown University with adults with intellectual and/or developmental disabilities living in the greater Providence community to meet on a weekly basis.",
-    "Tutor and mentor an adult with a mental disability during weekly sessions. Focus on building a strong personal relationship with mentee by building lesson plans tailored to their interests and taking them on field trips to engage with the surrounding community.",
-    null,
-    null,
-    "January 2020 - Present",
-    null
-]
-
 const highschoolText = [
     "Microsoft's High School Program is a 10-week internship for high school students from the Greater Seattle area who have a demonstrated interest in technology.",
     "First summer in program, worked on Minecraft: Education Edition Marketing Team. Produced marketing material, social media posts, and texture pack graphic design. Conducted competitive analysis of 11 learn-to-code programs to assist Minecraft’s market research.", 
@@ -70,7 +61,6 @@ class ExperienceContainer extends React.Component {
                     <StackedItem title={"Explorer Intern - Microsoft Office Core Experiences"} isExperiencePage={true} logo={microsoftLogo} descriptionText={explorerText}/>
                     <StackedItem title={"Frontend Engineer - Full Stack at Brown"} isExperiencePage={true} logo={fsabLogo} descriptionText={fsabText}/>
                     <StackedItem title={"Freelance Graphic Design - Scorebook Live"} isExperiencePage={true} logo={scorebookLogo} descriptionText={graphicDesignText}/>
-                    {/* <StackedItem title={"Tutor - Partnership for Adult Learning"} isExperiencePage={true} logo={palLogo} descriptionText={palText}/> */}
                     <StackedItem title={"High School Intern - Minecraft"} isExperiencePage={true} logo={microsoftLogo} descriptionText={highschoolText}/>
                 </div>
             </div>
