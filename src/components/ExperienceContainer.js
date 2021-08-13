@@ -7,7 +7,7 @@ import scorebookLogo from '../images/scorebook.png'
 const sweText = [
     "- Built the home screen UI for an Office web app experience in a React/TypeScript stack by developing custom React components and leveraging Microsoft Fluent UI controls.",
     "- Integrated home screen UI with back-end APIs and data stores to implement features and user functionalities.",
-    "- Created a Jest and React Testing Library-based test suite for the UI that reached 80% code coverage.",
+    "- Created a Jest and React Testing Library-based test suite for the UI that increased code coverage by 80%.",
     null,
     "May 2021 - August 2021",
     null
