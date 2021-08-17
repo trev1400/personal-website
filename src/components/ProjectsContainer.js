@@ -61,8 +61,8 @@ class ProjectsContainer extends React.Component {
                 <div className="stackedListContainer">
                     <StackedItem title={"Mootual - Full Stack at Brown"} isExperiencePage={false} logo={mootualLogo} descriptionText={mootualText}/>
                     <StackedItem title={"AUXplosion - Personal Project"} isExperiencePage={false} logo={auxplosionLogo} descriptionText={auxplosionText}/>
-                    <StackedItem title={"MapDash - CSCI 0320: Software Engineering"} isExperiencePage={false} logo={mapDashLogo} descriptionText={mapDashText}/>
                     <StackedItem title={"Voice-Powered Figma - Microsoft Hackathon 2020"} isExperiencePage={false} logo={microsoftLogo} descriptionText={hackathonText}/>
+                    <StackedItem title={"MapDash - CSCI 0320: Software Engineering"} isExperiencePage={false} logo={mapDashLogo} descriptionText={mapDashText}/>
                     <StackedItem title={"Chinese Students Association Website - Full Stack at Brown"} isExperiencePage={false} logo={fsabLogo} descriptionText={csaText}/>
                 </div>
             </div>
