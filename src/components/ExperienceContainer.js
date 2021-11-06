@@ -5,12 +5,12 @@ import fsabLogo from '../images/fsab.png'
 import scorebookLogo from '../images/scorebook.png'
 
 const sweText = [
-    "- Built the home screen UI for an Office web app experience in a React/TypeScript stack by developing custom React components and leveraging Microsoft Fluent UI controls.",
+    "- Built the home screen UI for Microsoft’s new hyper collaborative productivity app, Loop, in a React/TypeScript stack by developing custom React components and leveraging Microsoft Fluent UI controls.",
     "- Integrated home screen UI with back-end APIs and data stores to implement features and user functionalities.",
     "- Created a Jest and React Testing Library-based test suite for the UI that increased code coverage by 80%.",
-    null,
+    "Check out Loop!",
     "May 2021 - August 2021",
-    null
+    "https://www.microsoft.com/en-us/microsoft-loop"
 ]
 
 const explorerText = [

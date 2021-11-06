@@ -19,9 +19,9 @@ const csaText = [
     "Brown's Chinese Students Association was looking for a static website to expand their outreach efforts to both new and current members. Full Stack at Brown took on this project and delegated it to our team of three.",
     "Worked in a team with two other FSAB members to complete this website. Created the Home and About pages as well as various other interactive elements around the website. Focused on improving Vanilla JavaScript skills.",
     "Tech Stack: HTML, CSS, JavaScript",
-    "Video Tour",
+    "Website",
     "May 2020 - July 2020",
-    "https://drive.google.com/file/d/11D5sErNCRoFRXzExuXNbohUyvVFM98uN/view?usp=sharing"
+    "https://browncsa.github.io/csa/"
 ]
 
 const auxplosionText = [
