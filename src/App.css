@@ -344,6 +344,10 @@
   animation-fill-mode: forwards;
 }
 
+.experienceDescription {
+  line-height: 1.5em;
+}
+
 .chevron {
   font-size: 0.8em;
   margin-left: 3%;
