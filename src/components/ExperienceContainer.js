@@ -32,7 +32,9 @@ const okta = {
 		"Okta's Enterprise Auth team builds and enables all of Okta's multi-factor authentication (MFA) solutions across its suite of products and services.",
 	],
 	work: [
-		"- Building a WebAuthn (MFA) authenticator catalog that enables Okta client admins to customize and enforce an accepted list of authenticators that their organization uses.",
+		"- Developed a REST API using Spring and Jackson JSON parsing to transform a 10,000+ line metadata file from the FIDO Alliance’s Metadata Service into a concise JSON response containing 50+ WebAuthn model objects.",
+		"- Implemented support for REST query parameters to allow searching through the WebAuthn models returned by the API.",
+		"- Built and released a new feature for Okta Identity Engine orgs that enables admin-initiated WebAuthn authenticator enrollment for org employees.",
 	],
 	link: {
 		text: "Learn more about Okta's work with WebAuthn",
@@ -50,8 +52,8 @@ const msftSWE = {
 		"This Fluid Framework serves as the backbone for dynamic Microsoft-built and client developer-built collaborative applications.",
 	],
 	work: [
-		"- Built the home screen UI for Microsoft’s new hyper collaborative productivity app, Loop, in a React/TypeScript stack by developing custom React components and leveraging Microsoft Fluent UI controls.",
-		"- Integrated home screen UI with back-end APIs and data stores to implement features and user functionalities.",
+		"- Built the home screen workspace card UI for Microsoft’s new hyper collaborative productivity app, Loop, in a React/TypeScript stack by developing custom React components and leveraging Microsoft Fluent UI controls.",
+		"- Integrated home screen UI with API endpoints to implement renaming, favoriting, and reordering of workspace cards.",
 		"- Created a Jest and React Testing Library-based test suite for the UI that increased code coverage by 80%.",
 	],
 	link: {
